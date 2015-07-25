@@ -5,6 +5,12 @@ import static spark.SparkBase.threadPool;
 
 import br.com.santosguilherme.sample.api.person.PersonService;;
 
+/**
+ * Main class, services initializer
+ * 
+ * @author santosguilherme
+ *
+ */
 public class App {
 
 	private final int maxThreads = 8;
