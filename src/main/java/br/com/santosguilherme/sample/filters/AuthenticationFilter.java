@@ -8,9 +8,9 @@ import static spark.Spark.before;
  * @author santosguilherme
  *
  */
-public class ApiFilter {
+public class AuthenticationFilter {
 
-	public ApiFilter() {
+	public AuthenticationFilter() {
 		before("/api/*", (request, response) -> {
 			// ... check if authenticated
 			//halt(401, "401 - Unauthorized");

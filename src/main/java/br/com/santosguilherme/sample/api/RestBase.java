@@ -1,6 +1,6 @@
 package br.com.santosguilherme.sample.api;
 
-import br.com.santosguilherme.sample.filters.ApiFilter;
+import br.com.santosguilherme.sample.filters.AuthenticationFilter;
 
 /**
  * 
@@ -13,6 +13,6 @@ public abstract class RestBase {
 	protected static final String PUBLIC_URL = "/public";
 	
 	public RestBase() {
-		new ApiFilter();
+		new AuthenticationFilter();
 	}
 }
