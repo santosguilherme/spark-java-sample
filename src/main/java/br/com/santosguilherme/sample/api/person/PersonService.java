@@ -1,4 +1,4 @@
-package br.com.santosguilherme.sample.api;
+package br.com.santosguilherme.sample.api.person;
 
 import static spark.Spark.get;
 import static spark.Spark.post;
@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.google.gson.Gson;
 
+import br.com.santosguilherme.sample.api.RestBase;
 import br.com.santosguilherme.sample.model.Person;
 import spark.Spark;
 

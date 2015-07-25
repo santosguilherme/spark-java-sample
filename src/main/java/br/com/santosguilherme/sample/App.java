@@ -3,7 +3,7 @@ package br.com.santosguilherme.sample;
 import static spark.SparkBase.port;
 import static spark.SparkBase.threadPool;
 
-import br.com.santosguilherme.sample.api.PersonService;;
+import br.com.santosguilherme.sample.api.person.PersonService;;
 
 public class App {
 
